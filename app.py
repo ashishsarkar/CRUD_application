@@ -54,4 +54,4 @@ def delete_user(uid):
     
 if __name__=='__main__':
     app.secret_key='admin123'
-    app.run(debug=True)
+    app.run(host='0.0.0.0',port=7000,debug=True)
